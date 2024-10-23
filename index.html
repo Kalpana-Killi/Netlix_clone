@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <!--header start-->
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <img src="ntfl_logo.jpg" alt="Netflix Logo" class="brand">
+            </div>
+            <nav class="main-nav container">
+                <ul>
+                    <li class="nav-item"><a href="#">Home</a></li>
+                    <li class="nav-item"><a href="#">TV Shows</a></li>
+                    <li class="nav-item"><a href="#">Movies</a></li>
+                    <li class="nav-item"><a href="#">News & Popular</a></li>
+                    <li class="nav-item"><a href="#">My List</a></li>
+                    <li class="nav-item"><a href="#">Browse by Language</a></li>
+                </ul>
+            </nav>
+            <div class="rightcontainer">
+                <div class="searchicon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <div class="bell"><i class="fa-solid fa-bell"></i></div>
+                <div class="profile">
+                    <img src="smily_netflix.png" alt="Profile Icon" class="profile-icon">
+                    <div class="dropdown">
+                        <ul>
+                            <li><a href="#">Account</a></li>
+                            <li><a href="#">Sign Out</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-toggle"><i class="fa-solid fa-bars"></i></div>
+        </div>
+    </header>
+     <!--header end-->
+     
+     <div class="movies-cont" id="movies-cont">
+        <div class="movies-section">
+            
+            <h4 class="movies-section-heading">Trending Now </h4> <span class="explore-nudge">Explore All</span> 
+              <div class="movies-row">
+                <img class="movie-item" src="https://occ-0-2186-2164.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABeuFcTcnEKcK83NxYvsmc9O-gs-3mMZ0g5pOLlcmjcrDjr9llUAti7oILAWeEyV2denHZ7Af2_gGfwkeJRonYFzQx0wD2WlqojITFw6R6egaFGwQC2J1FIE4EYbUCD7KHgVMKct2LjCbt1Rt3-ikiMQOsP2vkVcBbI8.jpg?r=033" alt="">
+                <img class="movie-item" src="https://occ-0-2186-2164.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABQgynhs5tLZmUed2wWg1ZUIhM86I0Z2XKaeHFXMGPddWcFfNVkzL5yvRzPU9z4kP6tu_NkAs4JM2fcWjOQmZ56q2HDC-EYa_DX4rwheBoM46WtWsK4n1xViqcD2BUVkKla8IPI6I7AnbB7vnlNE-htUIKyyAdV7G30q8Bz31P-q8BAaUTjM4QbAcqepC7i45BFOIby-qW2Pkhtp7kTzIqAR-muDT3toaocI6sF59y1_Gl-g1u9PJn8qNl2D7Z1rpXNZ0m7hChADT1ckqEUK8Isztjhjbz95JHTbhGQosxTwiZjueg3dg2Sm6j98-0hn061CasYu4fGpWQzR5eRIvGN4.jpg?r=7dd" alt="">
+                <img class="movie-item" src="https://occ-0-2186-2164.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABTC3EtgbWMT9lOOx3-t2tQz-vf5mFoTA_3Hj41Uo_i-r_0E0Obui7nyjbJuSwmNiKC4whETh7soFT8oh6POmcBssMrDFwTbWnGXHoeLtorhGhEMRftvtqUbbtyS8bTjg_trV.jpg?r=856" alt="">
+                <img class="movie-item" src="https://occ-0-2186-2164.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABWXTD1tC5w3s7T1p-A4Q_1RcZybPr_TQ9ZrGztN7ad1uoFLG-TrtG2EIU8Qq5-sTcDvF7ZCGMOMnJ2Yszy-Zwmghg8p3PVngcxo.jpg?r=860" alt="">
+                <img class="movie-item" src="https://occ-0-2186-2164.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABcmAoRvvjeqLSA715cG7bg8aImO-oGcp60v-ZUFwzk7ficEJlfE5iKYuR4IhNAurhS-9mkXzEjxi2wXxJrjeZdT4zXhNMzkeQzJZVWGt30ALN9utLuQ-Dpdi3ts-geSt8WW-x9Z-IgbslDEfjT4_fHWxSAJleLH2dOxrunTpRZb7649AB5EVtCkDhOG8ijxIw2Hkj3NR997qX1Wil-mErEfW9qT298V7ry7werCLf7NDc0UoXkaz_kyaaFWkOjSoPQAQq_1VY_1dhitrpqCEtQUbCuqlLmIPgInDYgN71pS8gudgI6HYrYS_e0GN70M8-JEJlig5cwwoISuigUkBwHg.jpg?r=106" alt="">
+              </div> 
+        </div>
+     </div>
+
+     
+     <script src="index.js" defer></script>
+     
+</body>
+</html>
